@@ -1,0 +1,26 @@
+#addBook_dialog {
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    width: 400px;
+  }
+  
+  #addBookForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  #addBookForm input,
+  #addBookForm textarea {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
