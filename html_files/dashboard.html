@@ -25,10 +25,18 @@
       
           <label for="bookGenre">Genre<span style="color: red;">*</span>:</label>
           <input type="text" id="bookGenre" name="bookGenre" required>
-      
+          
+          <label for="bookStatus">Status</label>
+          <select id="bookStatus" name="status">
+            <option value="Read"> Completed </option>
+            <option value="reading"> In Progress</option>
+            <option value="TBR"> To Be Read</option>
+            <option value="Wishlist"> Wishlist</option>
+          </select>
+
           <label for="bookCover">Book Cover (optional):</label>
           <input type="file" id="bookCover" name="bookCover" accept="image/*">
-      
+          
           <div class="form-buttons">
             <button type="submit" id="submit">Add Book</button>
             <button type="button" onclick="document.getElementById('addBook_dialog').close()">Cancel</button>
